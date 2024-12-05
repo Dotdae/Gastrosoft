@@ -1,0 +1,175 @@
+/* Estilos Generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+/* Barra de navegación */
+.navbar {
+  background: #212122;
+  color: #ffffff;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.navbar-logo span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.navbar-links li a:hover {
+  color: #ffffff;
+}
+/* Sección de tarjetas */
+.cards-section {
+  text-align: center;
+  padding: 200px;
+}
+
+.cards-section h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+/* Contenedor de las tarjetas */
+.cards-container {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilo de las tarjetas */
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 15px; /* Bordes más suaves */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  width: 400px; /* Ancho mayor */
+  padding: 30px; /* Espaciado interno mayor */
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.25);
+}
+
+/* Icono de las tarjetas */
+.card .icon img {
+  width: 80px; /* Tamaño de los íconos aumentado */
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+/* Título de la tarjeta */
+.card h2 {
+  font-size: 2em; /* Tamaño del título aumentado */
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Texto descriptivo */
+.card p {
+  font-size: 1.2em; /* Tamaño del texto mayor */
+  color: #666;
+  margin-bottom: 25px;
+}
+
+/* Botón */
+.card button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 15px 30px; /* Botón más grande */
+  border-radius: 8px; /* Bordes redondeados */
+  cursor: pointer;
+  font-size: 1.2em; /* Texto del botón más grande */
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #444;
+}
+
+  
+  /* Pie de Página */
+  .contacto {
+    text-align: center;
+  }
+  
+  .contacto .social-links a {
+    display: inline-block;
+    margin: 0.5rem;
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .contacto .social-links .wp:hover {
+    color: green;
+  }
+
+  .contacto .social-links .ig:hover {
+    color: pink;
+  }
+
+  .contacto .social-links i {
+
+    font-size: 2em;
+
+  }
+  
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+  }
