@@ -140,6 +140,15 @@
   background-color: #444;
 }
 
+
+.values-list li{
+
+  margin-top: 20px;
+  list-style-type: none;
+  text-align: justify;
+
+}
+
   
   /* Pie de Página */
   .contacto {
